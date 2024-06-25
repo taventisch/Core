@@ -1,0 +1,11 @@
+name: Core
+version: '${project.version}'
+main: de.dev.taventix.Core
+api-version: '1.20'
+
+
+
+commands:
+  info:
+    description: Eine Info
+    aliases:
