@@ -13,7 +13,7 @@ public final class Core extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new WelcomeEvents(), this);
     }
 
-    @Override
+    @Overridedf
     public void onDisable() {
         // Plugin shutdown logic
     }
